@@ -14,6 +14,7 @@
 		5121ED661B48D44E00D22230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5121ED651B48D44E00D22230 /* Images.xcassets */; };
 		5121ED691B48D44E00D22230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5121ED671B48D44E00D22230 /* LaunchScreen.xib */; };
 		5121ED751B48D44F00D22230 /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121ED741B48D44F00D22230 /* NSArrayTests.m */; };
+		5121ED801B48D6CD00D22230 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121ED7F1B48D6CD00D22230 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5121ED6E1B48D44F00D22230 /* NSArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5121ED731B48D44F00D22230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5121ED741B48D44F00D22230 /* NSArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
+		5121ED7E1B48D6CD00D22230 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5121ED7F1B48D6CD00D22230 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5121ED5F1B48D44E00D22230 /* ViewController.h */,
 				5121ED601B48D44E00D22230 /* ViewController.m */,
 				5121ED621B48D44E00D22230 /* Main.storyboard */,
+				5121ED7E1B48D6CD00D22230 /* Person.h */,
+				5121ED7F1B48D6CD00D22230 /* Person.m */,
 				5121ED651B48D44E00D22230 /* Images.xcassets */,
 				5121ED671B48D44E00D22230 /* LaunchScreen.xib */,
 				5121ED581B48D44E00D22230 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				5121ED611B48D44E00D22230 /* ViewController.m in Sources */,
 				5121ED5E1B48D44E00D22230 /* AppDelegate.m in Sources */,
+				5121ED801B48D6CD00D22230 /* Person.m in Sources */,
 				5121ED5B1B48D44E00D22230 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				5121ED7A1B48D44F00D22230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5121ED7B1B48D44F00D22230 /* Build configuration list for PBXNativeTarget "NSArrayTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				5121ED7D1B48D44F00D22230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
