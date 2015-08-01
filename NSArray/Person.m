@@ -42,6 +42,18 @@
 
 }
 
+- (NSComparisonResult)comparePerson:(Person *)person
+{
+    
+    
+//    NSLog(@"%@----%@",self,person);
+    
+    NSComparisonResult result = [@(self.age) compare:@(person.age)];
+    
+    return result;
+    
+    
+}
 
 
 

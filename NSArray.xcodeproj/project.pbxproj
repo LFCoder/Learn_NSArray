@@ -15,6 +15,8 @@
 		5121ED691B48D44E00D22230 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5121ED671B48D44E00D22230 /* LaunchScreen.xib */; };
 		5121ED751B48D44F00D22230 /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121ED741B48D44F00D22230 /* NSArrayTests.m */; };
 		5121ED801B48D6CD00D22230 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121ED7F1B48D6CD00D22230 /* Person.m */; };
+		5123D7E41B6CC21A00D44D0A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 5123D7E31B6CC21A00D44D0A /* Student.m */; };
+		5123D7E71B6CC26F00D44D0A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 5123D7E61B6CC26F00D44D0A /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		5121ED741B48D44F00D22230 /* NSArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
 		5121ED7E1B48D6CD00D22230 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		5121ED7F1B48D6CD00D22230 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5123D7E21B6CC21A00D44D0A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		5123D7E31B6CC21A00D44D0A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		5123D7E51B6CC26F00D44D0A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		5123D7E61B6CC26F00D44D0A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				5121ED621B48D44E00D22230 /* Main.storyboard */,
 				5121ED7E1B48D6CD00D22230 /* Person.h */,
 				5121ED7F1B48D6CD00D22230 /* Person.m */,
+				5123D7E21B6CC21A00D44D0A /* Student.h */,
+				5123D7E31B6CC21A00D44D0A /* Student.m */,
+				5123D7E51B6CC26F00D44D0A /* Book.h */,
+				5123D7E61B6CC26F00D44D0A /* Book.m */,
 				5121ED651B48D44E00D22230 /* Images.xcassets */,
 				5121ED671B48D44E00D22230 /* LaunchScreen.xib */,
 				5121ED581B48D44E00D22230 /* Supporting Files */,
@@ -226,7 +236,9 @@
 			files = (
 				5121ED611B48D44E00D22230 /* ViewController.m in Sources */,
 				5121ED5E1B48D44E00D22230 /* AppDelegate.m in Sources */,
+				5123D7E41B6CC21A00D44D0A /* Student.m in Sources */,
 				5121ED801B48D6CD00D22230 /* Person.m in Sources */,
+				5123D7E71B6CC26F00D44D0A /* Book.m in Sources */,
 				5121ED5B1B48D44E00D22230 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
