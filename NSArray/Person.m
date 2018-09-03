@@ -50,6 +50,9 @@
     
     NSComparisonResult result = [@(self.age) compare:@(person.age)];
     
+    
+    NSLog(@"在Person.m文件中加了一句输出语句");
+    
     return result;
     
     
